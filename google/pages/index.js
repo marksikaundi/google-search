@@ -1,9 +1,19 @@
 import Head from "next/head";
 
 export default function Home() {
-  return (
-    <div>
-      <h2 className="p-10">Lets build google search</h2>
-    </div>
+  return (      
+      <header className="flex">
+        <div className="flex space-x-4 items-center">
+          <p>About</p>
+          <p>Store</p>
+        </div>
+
+        <div className="flex space-x-4 items center">
+          <p>Gmail</p>
+          <p>Images</p>
+        </div>
+      </header>
+
+  
   )
 }
